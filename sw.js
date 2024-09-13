@@ -2,12 +2,12 @@ self.addEventListener('install', event => {
     event.waitUntil(
       caches.open('v1').then(cache => {
         return cache.addAll([
-            '/Katsura/',  // Update this path
-            '/Katsura/index.html',  // Update this path
-            '/Katsura/styles/styles.css',  // Update this path
-            '/Katsura/scripts/script.js',  // Update this path
-            '/Katsura/favicons/favicon-192x192.png',  // Update this path
-            '/Katsura/favicons/favicon-512x512.png'  // Update this path
+            '/HayatHospital/',  // Update this path
+            '/HayatHospital/index.html',  // Update this path
+            '/HayatHospital/styles/hayathospital.css',  // Update this path
+            '/HayatHospital/scripts/script.js',  // Update this path
+            '/HayatHospital/favicons/favicon-32x32.png',  // Update this path
+            '/HayatHospital/favicons/favicon-16x16.png'  // Update this path
         ]);
       })
     );
